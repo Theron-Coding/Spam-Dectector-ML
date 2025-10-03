@@ -1,13 +1,11 @@
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 import os
-current_working_directory = os.getcwd()
-filename = "spam.csv"
-file_path = os.path.join(current_working_directory, filename)
-data = pd.read_csv(file_path, encoding="latin-1")
 
-if 'v1' in data.columns and 'v2' in data.columns:
-    data = data[['v1', 'v2']]
+data = pd.read_csv('MergedDataCleaned.csv', encoding='latin-1')
+
+if 'text' in data.columns and 'label' in data.columns:
+    data = data[['label', 'text']]
     data.columns = ['Category', 'Message']
 
 print("First 5 rows of dataset:")
