@@ -15,7 +15,7 @@ conda create -n spam-detection python=3.9
 conda activate spam-detection
 
 # Install required packages
-conda install pandas numpy scikit-learn matplotlib seaborn jupyter
+conda install pandas numpy scikit-learn matplotlib seaborn jupyter pyspellchecker
 ```
 
 ## Required Dependencies
