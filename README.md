@@ -1,3 +1,8 @@
+## Datasets Used
+
+Dataset 1: https://www.kaggle.com/code/mfaisalqureshi/email-spam-detection-98-accuracy/input
+
+Dataset 2: https://huggingface.co/datasets/adamlouly/enron_spam_data/tree/main
 
 ## Environment Setup
 
@@ -28,6 +33,9 @@ seaborn
 
 jupyter
 
+re
+
+SpellChecker
 
 ## Data Processing
 
